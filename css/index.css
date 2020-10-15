@@ -288,15 +288,27 @@ body {
 }
 @media (max-width: 540px) {
   .slider-btn {
-    display: none;
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
   }
 }
 .slider-btn-prev {
   left: -22px;
 }
+@media (max-width: 540px) {
+  .slider-btn-prev {
+    left: -15px;
+  }
+}
 .slider-btn-next {
   right: -22px;
   transform: rotate(180deg);
+}
+@media (max-width: 540px) {
+  .slider-btn-next {
+    right: -15px;
+  }
 }
 .slider-pagination {
   display: flex;
